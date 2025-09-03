@@ -1,0 +1,167 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3367886384123159267
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2735640446842271833}
+  - component: {fileID: 1322134056199419900}
+  - component: {fileID: 3872496044778881846}
+  m_Layer: 0
+  m_Name: Alonzo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &2735640446842271833
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3367886384123159267}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3698470344895672901}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &1322134056199419900
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3367886384123159267}
+  m_Mesh: {fileID: -7387706064836869012, guid: 752cf1f64d18a9c48a4188296d1ecc75, type: 3}
+--- !u!23 &3872496044778881846
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3367886384123159267}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 93abe39fefdaa9446a2bff437af9e821, type: 2}
+  - {fileID: 2100000, guid: 399e025bf585c434ab3830bfac978656, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1001 &8029293250411709894
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2735640446842271833}
+    m_Modifications:
+    - target: {fileID: 6646851828424767360, guid: 9a145e1e7070ecb4cb936c68b621445e,
+        type: 3}
+      propertyPath: interactText
+      value: "\"Alonzo\" \u043F\u0443\u0444"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6646851828424767363, guid: 9a145e1e7070ecb4cb936c68b621445e,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6646851828424767363, guid: 9a145e1e7070ecb4cb936c68b621445e,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.028189186
+      objectReference: {fileID: 0}
+    - target: {fileID: 6646851828424767363, guid: 9a145e1e7070ecb4cb936c68b621445e,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.66088873
+      objectReference: {fileID: 0}
+    - target: {fileID: 6646851828424767363, guid: 9a145e1e7070ecb4cb936c68b621445e,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.0010323487
+      objectReference: {fileID: 0}
+    - target: {fileID: 6646851828424767363, guid: 9a145e1e7070ecb4cb936c68b621445e,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.5465396
+      objectReference: {fileID: 0}
+    - target: {fileID: 6646851828424767363, guid: 9a145e1e7070ecb4cb936c68b621445e,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6646851828424767363, guid: 9a145e1e7070ecb4cb936c68b621445e,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.8374332
+      objectReference: {fileID: 0}
+    - target: {fileID: 6646851828424767363, guid: 9a145e1e7070ecb4cb936c68b621445e,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6646851828424767363, guid: 9a145e1e7070ecb4cb936c68b621445e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6646851828424767363, guid: 9a145e1e7070ecb4cb936c68b621445e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6646851828424767363, guid: 9a145e1e7070ecb4cb936c68b621445e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6646851828424767372, guid: 9a145e1e7070ecb4cb936c68b621445e,
+        type: 3}
+      propertyPath: m_Name
+      value: Alonzo_pouf
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9a145e1e7070ecb4cb936c68b621445e, type: 3}
+--- !u!4 &3698470344895672901 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6646851828424767363, guid: 9a145e1e7070ecb4cb936c68b621445e,
+    type: 3}
+  m_PrefabInstance: {fileID: 8029293250411709894}
+  m_PrefabAsset: {fileID: 0}

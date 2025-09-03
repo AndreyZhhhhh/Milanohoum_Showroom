@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97d8f4ae859ad41cdb0be1de8473a06a, type: 3}
+  m_Name: Avatar_4
+  m_EditorClassIdentifier: 
+  version: 0
+  sku: 6724f53104c2479ff36e7979
+  packageName: Man_1
+  thumbnail: {fileID: 2800000, guid: 98e326c00c0c1604d9edbacb9f80517f, type: 3}
+  savedProjectSettings: {fileID: 11400000, guid: b4d3f3931508d4e3381693ee23f6fe04,
+    type: 2}
+  prefab: {fileID: 7255452888573040542, guid: 7c7d6365e3a98f34084109d77962d608, type: 3}
+  usageContext: 0
+  category: 1

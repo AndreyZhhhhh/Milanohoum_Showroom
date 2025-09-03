@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: camera_lookat
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":-86.0,"y":185.0},"zoom":1.0,"elements":[{"defaultValues":{"cameraMode":{"$content":"Actor","$type":"SpatialSys.UnitySDK.SpatialCameraMode"}},"position":{"x":203.0,"y":130.0},"guid":"ddb14939-d250-47d6-bae4-e3ca4e94840a","$version":"A","$type":"SpatialSys.UnitySDK.VisualScripting.SetCameraTargetOverrideNode","$id":"9"},{"coroutine":false,"defaultValues":{"interactable":null},"position":{"x":-199.0,"y":-3.0},"guid":"e374ff5e-a048-47da-b191-44a175b50134","$version":"A","$type":"SpatialSys.UnitySDK.VisualScripting.SpatialInteractableOnInteract","$id":"11"},{"member":{"name":"transform","parameterTypes":null,"targetType":"UnityEngine.GameObject","targetTypeName":"UnityEngine.GameObject","$version":"A"},"defaultValues":{"target":null},"position":{"x":-192.0,"y":230.0},"guid":"18ae0561-00e7-4f37-ac16-3dc0730912eb","$version":"A","$type":"Unity.VisualScripting.GetMember","$id":"13"},{"sourceUnit":{"$ref":"11"},"sourceKey":"trigger","destinationUnit":{"$ref":"9"},"destinationKey":"inputTrigger","guid":"4b1e2b72-6a58-47f8-9317-efacc1047cc3","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"13"},"sourceKey":"value","destinationUnit":{"$ref":"9"},"destinationKey":"target","guid":"0bd8cd6f-429f-4d9a-a12f-bfa6ab71798c","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []

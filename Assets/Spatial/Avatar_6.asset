@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97d8f4ae859ad41cdb0be1de8473a06a, type: 3}
+  m_Name: Avatar_6
+  m_EditorClassIdentifier: 
+  version: 0
+  sku: 678a29d51e78cf3a4a16beab
+  packageName: Kid_female
+  thumbnail: {fileID: 2800000, guid: 87b8992b72fd2ca4398a582fd570e615, type: 3}
+  savedProjectSettings: {fileID: 11400000, guid: b4d3f3931508d4e3381693ee23f6fe04,
+    type: 2}
+  prefab: {fileID: 2859257450665912916, guid: 406046347e489384f9299612a5789062, type: 3}
+  usageContext: 0
+  category: 1
